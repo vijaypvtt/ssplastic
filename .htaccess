@@ -1,0 +1,8 @@
+
+RewriteOptions inherit
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^forms$ "https\:\/\/ss\-plastic\.com\/" [R=301,L]
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^info$ "https\:\/\/ss\-plastic\.com\/" [R=301,L]
