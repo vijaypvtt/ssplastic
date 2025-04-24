@@ -1,60 +1,127 @@
-
+<!-- Custom Styles -->
 <style>
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
 
-.hm-footer {
-  background-color: #1c1c1e;
+  .footer-section {
+    background: linear-gradient(135deg, #0052D4, #4364F7);
+    color: #fff;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    line-height: 1.8;
+  }
+
+  .footer-section::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+    animation: rotateBg 20s linear infinite;
+    z-index: 0;
+  }
+
+  @keyframes rotateBg {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+  }
+
+  .footer-heading {
+    font-size: 1.95rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  .footer-text {
+    font-size: 1.25rem;
+    opacity: 0.9;
+  }
+
+  .footer-links {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+
+  .footer-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: all 0.3s ease;
+    display: inline-block;
+    position: relative;
+  }
+
+  .footer-links a::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #ffd700;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+  }
+
+  .footer-links a:hover {
+    color: #ffd700;
+    transform: translateX(5px);
+  }
+
+  .footer-links a:hover::after {
+    width: 100%;
+  }
+
+  .footer-contact {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .footer-contact i {
+    color: #ffd700;
+    margin-top: 2px;
+  }
+
+  @media (max-width: 276px) {
+    .footer-section {
+      text-align: center;
+    }
+
+    .footer-contact {
+      justify-content: center;
+      text-align: left;
+    }
+  }
+  .footer-contact {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
   color: #fff;
+  line-height: 1.8;
+  
 }
 
-.footer-title {
-  font-size: 18px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #fff;
-  position: relative;
+.contact-icon {
+  font-size: 1.2rem;
+  color: #FFD700; /* bright yellow for visibility */
+  min-width: 24px;
+  text-align: center;
 }
 
-.footer-title::after {
-  content: '';
-  display: block;
-  width: 40px;
-  height: 3px;
-  background: #007bff;
-  margin-top: 8px;
-  border-radius: 2px;
-}
-
-.footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.footer-links li {
-  margin-bottom: 10px;
-}
-
-.footer-links a {
-  color: #ccc;
-  text-decoration: none;
-  transition: color 0.3s ease;
-}
-
-.footer-links a:hover {
-  color: #ffffff;
-}
-
-.footer-contact i {
-  color: #007bff;
-}
-
-.footer-contact p,
-.footer-contact strong {
-  color: #ccc;
-  font-size: 14px;
-  line-height: 1.6;
-}
-
+  
 </style>
 
 
@@ -63,73 +130,71 @@
 
 
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-<footer class="hm-footer py-5 text-white" style="font-family: 'Poppins', sans-serif; background-color: #1a1a1a;">
-  <div class="container">
+<!-- Google Fonts & Font Awesome -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+<footer class="footer-section">
+  <div class="container py-5">
     <div class="row gy-4">
-      
+
       <!-- Company Info -->
       <div class="col-lg-3 col-md-6">
-        <h5 class="footer-title mb-3">SS Plastic</h5>
-        <p class="small">Delivering customized FRP solutions for industries across India and abroad with quality and commitment since our inception.</p>
+        <h5 class="footer-heading">SS Plastic</h5>
+        <p class="footer-text">Delivering customized FRP solutions for industries across India and abroad with quality and commitment since our inception.</p>
       </div>
 
       <!-- Quick Links -->
       <div class="col-lg-2 col-md-6">
-        <h5 class="footer-title mb-3">Quick Links</h5>
-        <ul class="list-unstyled footer-links">
-          <li><a href="index.php" class="text-white text-decoration-none">Home</a></li>
-          <li><a href="about.php" class="text-white text-decoration-none">About Us</a></li>
-          <li><a href="frp-products-manufacturers.php" class="text-white text-decoration-none">Products</a></li>
-          <li><a href="gallery.php" class="text-white text-decoration-none">Gallery</a></li>
-          <li><a href="contact.php" class="text-white text-decoration-none">Contact Us</a></li>
+        <h5 class="footer-heading">Quick Links</h5>
+        <ul class="footer-links">
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="frp-products-manufacturers.php">Products</a></li>
+          <li><a href="gallery.php">Gallery</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </div>
 
       <!-- Products & Services -->
       <div class="col-lg-3 col-md-6">
-        <h5 class="footer-title mb-3">Products & Services</h5>
-        <ul class="list-unstyled footer-links">
-          <li><a href="storagetank.php" class="text-white text-decoration-none">Storage Tanks</a></li>
-          <li><a href="frp-pipe-fittings-manufacturers.php" class="text-white text-decoration-none">FRP Pipes / Fittings</a></li>
-          <li><a href="frp-duct-manufacturers.php" class="text-white text-decoration-none">FRP / Ductings</a></li>
-          <li><a href="frp-industrial-vessels-manufacturers.php" class="text-white text-decoration-none">Industrial Vessels</a></li>
-          <li><a href="frp-scrubbers-manufacturers.php" class="text-white text-decoration-none">Packed Column Scrubber</a></li>
-          <li><a href="frp-moulded-items.php" class="text-white text-decoration-none">Chemical Storage Room & Other Items</a></li>
-          <li><a href="frp-anolyte-catholyte-headers.php" class="text-white text-decoration-none">FRP Headers</a></li>
-          <li><a href="Jyoti94.zip" class="text-white text-decoration-none" download>Download File</a></li>
+        <h5 class="footer-heading">Products & Services</h5>
+        <ul class="footer-links">
+          <li><a href="storagetank.php">Storage Tanks</a></li>
+          <li><a href="frp-pipe-fittings-manufacturers.php">FRP Pipes / Fittings</a></li>
+          <li><a href="frp-duct-manufacturers.php">FRP / Ductings</a></li>
+          <li><a href="frp-industrial-vessels-manufacturers.php">Industrial Vessels</a></li>
+          <li><a href="frp-scrubbers-manufacturers.php">Packed Column Scrubber</a></li>
+          <li><a href="frp-moulded-items.php">Chemical Storage Room & Other Items</a></li>
+          <li><a href="frp-anolyte-catholyte-headers.php">FRP Headers</a></li>
+          <li><a href="Jyoti94.zip" download>Download File</a></li>
         </ul>
       </div>
 
       <!-- Contact Info -->
       <div class="col-lg-4 col-md-6">
-        <h5 class="footer-title mb-3">Contact Us</h5>
+  <h5 class="footer-heading">Contact Us</h5>
 
-        <div class="d-flex align-items-start mb-3">
-          <i class="fa fa-map-marker fa-lg me-3 mt-1"></i>
-          <div>
-            <strong>Manufacturing Unit:</strong>
-            <p class="mb-0 small">Gala No.-1, Survey No.-282, Nr DamanGanga Ind. Park, Gate No.-2, Patia Mora, Karvad, Vapi-396191</p>
-          </div>
-        </div>
+  <div class="footer-contact mb-3 d-flex align-items-start">
+    <i class="fas fa-map-marker-alt contact-icon me-3 mt-1"></i>
+    <span>
+      <strong>Manufacturing Unit:</strong> Gala No.-1, Survey No.-282, Nr DamanGanga Ind. Park, Gate No.-2, Patia Mora, Karvad, Vapi-396191
+    </span>
+  </div>
 
-        <div class="d-flex align-items-start">
-          <i class="fa fa-phone fa-lg me-3 mt-1"></i>
-          <div>
-            <p class="mb-0 small">Mobile: <strong>98258 50501</strong></p>
-            <p class="mb-0 small">Mobile: <strong>98799 50501</strong></p>
-          </div>
-        </div>
-      </div>
+  <div class="footer-contact d-flex align-items-start">
+    <i class="fas fa-phone contact-icon me-3 mt-1"></i>
+    <span>
+      Mobile: <strong>98258 50501</strong>, <strong>98799 50501</strong>
+    </span>
+  </div>
+</div>
+
 
     </div>
   </div>
 </footer>
-
-
-
-
 
 
 
