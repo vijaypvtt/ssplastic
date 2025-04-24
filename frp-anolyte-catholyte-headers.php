@@ -1,4 +1,198 @@
 
+
+
+          <style>
+  .prod-inn-para {
+    margin-bottom: 25px;
+    color: #444;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .prod-inn-para b {
+    color: #222;
+    font-weight: 600;
+  }
+
+  .prod-feature {
+    background: #fdfdfd;
+    padding: 25px;
+    border-left: 4px solid #28a745;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+  }
+
+  .prod-feature:hover {
+    border-left-color: #218838;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .prod-feature h5 {
+    margin-bottom: 16px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #333;
+  }
+
+  .prod-feature ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .prod-feature li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    color: #444;
+  }
+
+  .prod-feature li i {
+    color: #28a745;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+
+  .prod-img-main {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 25px;
+    transition: transform 0.3s ease;
+  }
+
+  .prod-img-main:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  }
+
+  .prod-img-head h5 {
+    background: #28a745;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 12px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .prod-box img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  .prod-menu {
+    background: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  }
+
+  .prod-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .prod-menu ul li {
+    margin-bottom: 10px;
+  }
+
+  .prod-menu ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+  }
+
+  .prod-menu ul li i {
+    color: #28a745;
+    margin-right: 6px;
+  }
+
+  .prod-menu ul li a:hover {
+    color: #218838;
+    font-weight: 500;
+  }
+
+  .tall {
+    margin: 40px 0;
+    border-top: 2px solid #ccc;
+  }
+
+  @media (max-width: 768px) {
+    .prod-img-head h5,
+    .prod-feature h5 {
+      font-size: 1.1rem;
+    }
+
+    .prod-menu {
+      margin-top: 30px;
+    }
+  }
+
+
+
+
+
+
+
+
+  .prod-menu {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prod-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prod-menu ul li {
+  margin-bottom: 15px;
+}
+
+.prod-menu ul li a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.prod-menu ul li a i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.prod-menu ul li a:hover {
+  color: #007BFF;
+  transform: translateX(8px);
+}
+
+.prod-menu ul li a:hover i {
+  color: #0056b3;
+}
+.inner-bg{
+   background-color:E5E5E5;
+
+}
+
+</style>
+
+
+
 			<?php
 
 			$PageTitle="SS PLASTIC";
@@ -43,99 +237,80 @@
 					</h2>
 				</div>
 			</div>
-		<div class="row prod-gap">
-			<div class="col-sm-9 col-sm-push-3">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="prod-inn-para">
-							<p><b>Anolyte headers are the heart of the chloro alkali plant where the chlorine comes in contact with brine.</b> Cholorine Manifolds or Anolyte Header made in complete GRP using Alpolite Vipal 797 of Allnex Austria or Derakane 470-300 Momentum resin from Ashland Inc or also made in dual Laminate Plastics like ECTFE/GRP or CPVC/GRP depending on technology provider </p>
-						</div>
-					</div>
-					<div class="col-md-8 col-sm-8">
-						<div class="prod-feature">
-							<h5>MOC :-</h5>
-							<ul>
-								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> GRP / FRP using Alpolite or Derakane 470-300 momentum resin</li>
-								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> CPVC + GRP/ FRP</li>
-								<li><i class="fa fa-angle-double-right" aria-hidden="true"></i> ECTFE + GRP / FRP</li>
-							</ul>
-						</div>
-						<div class="prod-inn-para">
-							<p><b>Catholyte headers are the heart of the chloro alkali plant where the hydrogen comes in contact with NaOH</b></p>
-							<p>MOC : PPH 2222 + GRP / FRP using Derakane 411-350 momentum resin</p>
-							<p>MOC : PPR +  GRP / FRP using Derakane 411-350 momentum resinmipl</p>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>Anolyte / Catholyte Headers</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/header/frp1.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-				</div>
-				<!----------------->
-					<div class="row">
-						<hr class="tall">
-					</div>
-				<!----------------->
-				<!-- <div class="row">
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>PPH headers</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/header/header1.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>PPH Headers</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/header/header2.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>Rinse Tank Spray headers</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/header/header3.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					
-				</div> -->
-			</div>
-			
-			<div class="col-sm-3 col-sm-pull-9">
-				<div class="prod-menu">
-					<ul>
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-tank-manufacturers.php">Storage Tanks</a></li>
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-pipe-fittings-manufacturers.php">FRP Pipes / Fittings</a></li>
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-duct-manufacturers.php"> Ductings</a></li>
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-industrial-vessels-manufacturers.php">Industrial Vessels</a></li>
-			
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-scrubbers-manufacturers.php">Packed Column Scrubber</a></li>
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-moulded-items.php">Chemical Storage Room & Other Items</a></li>
-			
-						<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-anolyte-catholyte-headers.php">FRP Headers</a></li>
-			
-					</ul>
-				</div>
-			</div>
-			</div>
-			</div>
-			</div>
+
+			<div class="row prod-gap">
+  <div class="col-sm-9 col-sm-push-3">
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="prod-inn-para">
+          <p><b>Anolyte headers are the heart of the chloro alkali plant where the chlorine comes in contact with brine.</b> Cholorine Manifolds or Anolyte Header made in complete GRP using Alpolite Vipal 797 of Allnex Austria or Derakane 470-300 Momentum resin from Ashland Inc or also made in dual Laminate Plastics like ECTFE/GRP or CPVC/GRP depending on technology provider.</p>
+        </div>
+      </div>
+
+      <div class="col-md-8 col-sm-8">
+        <div class="prod-feature">
+          <h5>MOC :</h5>
+          <ul>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> GRP / FRP using Alpolite or Derakane 470-300 Momentum resin</li>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> CPVC + GRP / FRP</li>
+            <li><i class="fa fa-angle-double-right" aria-hidden="true"></i> ECTFE + GRP / FRP</li>
+          </ul>
+        </div>
+
+        <div class="prod-inn-para">
+          <p><b>Catholyte headers are the heart of the chloro alkali plant where the hydrogen comes in contact with NaOH.</b></p>
+          <p>MOC : PPH 2222 + GRP / FRP using Derakane 411-350 Momentum resin</p>
+          <p>MOC : PPR + GRP / FRP using Derakane 411-350 Momentum resinmipl</p>
+        </div>
+      </div>
+
+      <div class="col-md-4 col-sm-4">
+        <div class="prod-img-main">
+          <div class="prod-img-head">
+            <h5>Anolyte / Catholyte Headers</h5>
+          </div>
+          <div class="prod-box">
+            <img src="images/product/header/frp1.webp" alt="Anolyte Catholyte Header" class="img-responsive" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <hr class="tall">
+    </div>
+
+  </div>
+
+  <div class="col-sm-3 col-sm-pull-9">
+  <div class="prod-menu">
+    <ul>
+      <li><a href="frp-tank-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Storage Tanks</a></li>
+      <li><a href="frp-pipe-fittings-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> FRP Pipes / Fittings</a></li>
+      <li><a href="frp-duct-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Ductings</a></li>
+      <li><a href="frp-industrial-vessels-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Industrial Vessels</a></li>
+      <li><a href="frp-scrubbers-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Packed Column Scrubber</a></li>
+      <li><a href="frp-moulded-items.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Chemical Storage Room & Other Items</a></li>
+      <li><a href="frp-anolyte-catholyte-headers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> FRP Headers</a></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+		
+
+
+
+
+
+
+
+
+
+
+
 			<!-------------->
 			<?php 
 include_once('footer.php');

@@ -30,50 +30,144 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }?>
   </head>
 
+  <style>
+	
+	/* Base */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.pre-header {
+  background: #f7f7f7;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0;
+}
+
+.pre-header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.pre-logo img {
+  max-height: 55px;
+}
+
+/* Contact Block */
+.pre-contact {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pre-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #444;
+}
+
+.pre-info i {
+  font-size: 20px;
+  color: #007bff;
+  background: #e6f0ff;
+  padding: 8px;
+  border-radius: 50%;
+}
+
+.pre-info span {
+  font-weight: 600;
+  display: block;
+  font-size: 14px;
+  color: #222;
+}
+
+.pre-info p {
+  margin: 0;
+  font-size: 13px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .pre-header-wrap {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .pre-contact {
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+  </style>
+
+
+  
+
   <body>
 	<!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PQNPM7RF"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-  <div class="pre-header">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-3 col-sm-3 logo-bg">
-				<div class="logo">
-					<a href="index.php"><img src="ssplasticlogo.webp" class="img-responsive" alt="logo"/></a>
-				</div>
-			</div>
-			<div class="pre-gap">
-				<div class="col-md-4 col-sm-3">
-					<div class="header-add">
-						<div class="hm-icon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<div class="icon-detail">
-							<span>Mail Us</span>
-							<p>info@ss-plastic.com</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-3 col-sm-3">
-					<div class="header-add">
-						<div class="hm-icon">
-							<i class="fa fa-volume-control-phone" aria-hidden="true"></i>
-						</div>
-						<div class="icon-detail">
-							<span>CALL US</span>
-							<p>+91-9825850501</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-2 col-sm-2">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 
-				</div>
-			</div>
-		</div>
-	</div>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+
+<div class="pre-header">
+  <div class="container">
+    <div class="pre-header-wrap">
+      
+      <!-- Logo -->
+      <div class="pre-logo">
+        <a href="index.php">
+          <img src="ssplasticlogo.webp" alt="SS Plastic Logo" class="img-fluid" />
+        </a>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="pre-contact">
+        <!-- Email -->
+        <div class="pre-info">
+          <i class="fa fa-envelope"></i>
+          <div>
+            <span>Mail Us</span>
+            <p>info@ss-plastic.com</p>
+          </div>
+        </div>
+
+        <!-- Phone -->
+        <div class="pre-info">
+          <i class="fa fa-phone"></i>
+          <div>
+            <span>Call Us</span>
+            <p>+91-9825850501</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </div>
+
+
+
+
+
 <!-------------->
+
 <nav class="navbar navbar-inverse">
 	<div class="container-fluid">
 		<div class="row">

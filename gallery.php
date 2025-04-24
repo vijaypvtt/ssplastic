@@ -1,4 +1,13 @@
 
+<style>
+	.inner-bg{
+   background-color:E5E5E5;
+
+}
+
+</style>
+
+
 <body>
 	<?php
 

@@ -1,4 +1,119 @@
 
+<style>
+	.prod-img-main {
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+.prod-img-main img {
+  border-radius: 10px;
+  width: 100%;
+  transition: transform 0.4s ease-in-out;
+}
+
+.hover-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+}
+
+.hover-card:hover img {
+  transform: scale(1.05);
+}
+
+.prod-img-head h5 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.prod-menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.prod-menu ul li {
+  margin: 10px 0;
+}
+
+.prod-menu ul li a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.prod-menu ul li a:hover {
+  color: #007BFF;
+}
+
+
+
+
+
+
+
+
+
+
+.prod-menu {
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.prod-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.prod-menu ul li {
+  margin-bottom: 15px;
+}
+
+.prod-menu ul li a {
+  display: flex;
+  align-items: center;
+  color: #333;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 8px 0;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.prod-menu ul li a i {
+  margin-right: 10px;
+  font-size: 1.2rem;
+  color: #007BFF;
+}
+
+.prod-menu ul li a:hover {
+  color: #007BFF;
+  transform: translateX(8px);
+}
+
+.prod-menu ul li a:hover i {
+  color: #0056b3;
+}
+
+
+.inner-bg{
+   background-color:E5E5E5;
+
+}
+
+
+
+</style>
+
+
+
 	<?php
 
 	$PageTitle="SS PLASTIC";
@@ -43,104 +158,80 @@
 					</h2>
 				</div>
 			</div>
-			<div class="row prod-gap">
-				<div class="col-sm-9 col-sm-push-3">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="prod-inn-para">
-								<p>SS Plastic , your trusted manufacturer, exporter, and supplier of premium FRP (Fiber Reinforced Plastic) pipes  With a steadfast commitment to reliability and excellence, we offer a diverse range of FRP pipes and ducting tailored to meet a multitude of application requirements.</p>
-								<p>Our products stand out for their exceptional quality, versatility, and durability. Available in a variety of dimensions and specifications, our FRP pipes and ducting are crafted to deliver superior performance across a wide range of industries and applications. Whether you require pipes for industrial processes, water treatment facilities, chemical handling, or infrastructure projects, we have the solution to meet your needs.</p>
-							</div>
-						</div>
-					</div>
-					<!----------------->
-					<div class="row">
-						<hr class="tall">
-					</div>
-					<!----------------->
-					<div class="row">
-						<div class="col-md-4 col-sm-4">
-							<div class="prod-img-main">
-								<div class="prod-img-head">
-									<h5>FRP Vessels</h5>
-								</div>
-								<div class="prod-box">
-									<img src="images/indutrial-vessels/PIC1.webp" class="img-responsive" />
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-4">
-							<div class="prod-img-main">
-								<div class="prod-img-head">
-									<h5>FRUS Vessels</h5>
-								</div>
-								<div class="prod-box">
-									<img src="images/indutrial-vessels/vessel.webp" class="img-responsive" />
-								</div>
-							</div>
-						</div>
-						<!--<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>Agitator Vessels</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/indutrial-vessels/industrial-vessel-3.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>-->
-						<div class="col-md-4 col-sm-4">
-							<div class="prod-img-main">
-								<div class="prod-img-head">
-									<h5>Industrial Vessels</h5>
-								</div>
-								<div class="prod-box">
-									<img src="images/indutrial-vessels/vessel1.webp" class="img-responsive" />
-								</div>
-							</div>
-						</div>
-						<!--<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>PP / FRP Vessels</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/indutrial-vessels/industrial-vessel-4.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>PUDF Vessels</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/indutrial-vessels/industrial-vessel-5.webp" class="img-responsive" />
-							</div>
-						</div>
-					</div>-->
-					</div>
-				</div>
 
-				<div class="col-sm-3 col-sm-pull-9">
-					<div class="prod-menu">
-						<ul>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-tank-manufacturers.php">Storage Tanks</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-pipe-fittings-manufacturers.php">FRP Pipes / Fittings</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-duct-manufacturers.php"> Ductings</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-industrial-vessels-manufacturers.php">Industrial Vessels</a></li>
-				
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-scrubbers-manufacturers.php">Packed Column Scrubber</a></li>
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-moulded-items.php">Chemical Storage Room & Other Items</a></li>
-				
-							<li><i class="fa fa-caret-right" aria-hidden="true"></i><a href="frp-anolyte-catholyte-headers.php">FRP Headers</a></li>
-				
-						</ul>
-					</div>
-				</div>
-				</div>
-				</div>
-				</div>
+
+			<div class="row prod-gap">
+  <div class="col-sm-9 col-sm-push-3">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="prod-inn-para">
+          <p><strong>SS Plastic</strong>, your trusted manufacturer, exporter, and supplier of premium FRP (Fiber Reinforced Plastic) pipes. With a steadfast commitment to reliability and excellence, we offer a diverse range of FRP pipes and ducting tailored to meet a multitude of application requirements.</p>
+          <p>Our products stand out for their exceptional quality, versatility, and durability. Available in a variety of dimensions and specifications, our FRP pipes and ducting are crafted to deliver superior performance across a wide range of industries and applications.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row"><hr class="tall"></div>
+
+    <div class="row">
+      <!-- Product Card -->
+      <div class="col-md-4 col-sm-4">
+        <div class="prod-img-main hover-card">
+          <div class="prod-img-head"><h5>FRP Vessels</h5></div>
+          <div class="prod-box">
+            <img src="images/indutrial-vessels/PIC1.webp" class="img-responsive" alt="FRP Vessels">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-md-4 col-sm-4">
+        <div class="prod-img-main hover-card">
+          <div class="prod-img-head"><h5>FRUS Vessels</h5></div>
+          <div class="prod-box">
+            <img src="images/indutrial-vessels/vessel.webp" class="img-responsive" alt="FRUS Vessels">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Card -->
+      <div class="col-md-4 col-sm-4">
+        <div class="prod-img-main hover-card">
+          <div class="prod-img-head"><h5>Industrial Vessels</h5></div>
+          <div class="prod-box">
+            <img src="images/indutrial-vessels/vessel1.webp" class="img-responsive" alt="Industrial Vessels">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-3 col-sm-pull-9">
+  <div class="prod-menu">
+    <ul>
+      <li><a href="frp-tank-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Storage Tanks</a></li>
+      <li><a href="frp-pipe-fittings-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> FRP Pipes / Fittings</a></li>
+      <li><a href="frp-duct-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Ductings</a></li>
+      <li><a href="frp-industrial-vessels-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Industrial Vessels</a></li>
+      <li><a href="frp-scrubbers-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Packed Column Scrubber</a></li>
+      <li><a href="frp-moulded-items.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Chemical Storage Room & Other Items</a></li>
+      <li><a href="frp-anolyte-catholyte-headers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> FRP Headers</a></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+			
+
+
+
+
+
+
+
+
+
 				<!-------------->
 				<?php 
 include_once('footer.php');

@@ -12,6 +12,150 @@ include_once('header.php');
 //body contents go here
 
 ?>
+<style>
+	/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.about-section {
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+  font-family: 'Poppins', sans-serif;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.about-section:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  width: 50px;
+  height: 4px;
+  background-color: #007bff;
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  border-radius: 2px;
+}
+
+.about-section p {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.btn-custom {
+  background: #007bff;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 12px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-custom:hover {
+  background: #0056b3;
+  transform: scale(1.05);
+}
+
+
+
+
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-6px);
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.product-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover .product-overlay {
+  transform: translateY(0%);
+}
+
+.product-overlay h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.product-overlay p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.product-overlay a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #ffd700;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.btn-custom {
+  background-color: #007bff;
+  color: #fff;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-custom:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+
+
+
+	</style>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+
+
+
 
 <!-------------->
 <div class="banner">
@@ -54,21 +198,25 @@ include_once('header.php');
 			<h1><span>SS PLASTIC</span</h1>
 
 		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 about-hm">
-			<h2> ABOUT US</h2>
-			<p>SS Plastic comprehensive menu of services takes you from Fabrication
-                and structural fabrication to field support for tasks such as lamination
-                repair or equipment installation. With a team of skilled and experienced
-                manpower we have handled fabrication of equipment's ON-SITE as well
-                as OFF-SITE, at domestic as well overseas. 
-			</p>
-			<p>With the given experience
-                we work on any given system with, HDPE, PP, PPFRP/ PVC. We do have
-                experience in Fabrication of equipment from initial stage of mould
-                making till complete assembly of the desired equipment.
-			</p>
-			<a href="about.php"><button type="button" class="btn btn-default btn">Read More</button></a>
-		</div>
+
+		<!-- Add AOS data attributes for scroll animation -->
+<div class="col-lg-6 col-md-6 col-sm-12 about-section" data-aos="fade-up" data-aos-duration="1000">
+  <h2 class="section-title">About Us</h2>
+  <p>
+    SS Plastic offers a comprehensive range of services—from fabrication and structural manufacturing to on-site support like lamination repair and equipment installation. 
+    Our skilled and experienced team has successfully completed both on-site and off-site projects, domestically and internationally.
+  </p>
+  <p>
+    With extensive experience in working with materials like HDPE, PP, and PPFRP/PVC, we handle the entire fabrication process—from mold creation to the final assembly of custom equipment.
+  </p>
+  <a href="about.php" class="btn btn-custom mt-3">Read More</a>
+</div>
+
+
+
+
+
+
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 		    <div class="abt-img">
    <!-- 			<img src="san.webp" class="img-responsive" alt="About"> -->
@@ -80,134 +228,104 @@ include_once('header.php');
 	</div>
 </div>
 <!-------------->
-<div class="hm-prod">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<div class="wrp-intro">
-				<h2 class="main-title"><span>ABOUT OUR PRODUCTS</span></h2>
-				</div>
-			</div>
-			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-				<div class="team-block">
-					<div class="team-img">
-						<img src="images/home/react.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">Pickling Acid Rec. Tank</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="mb0 text-white">Pickling Acid Rec. Tank</h4>
-							<p>Our FRP Tanks Manufacturers merchandise square measure victimisation by varied leading industries like Chemical Industry,Steel Industry</p>
-							<a href="frp-tank-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-				</div>
-			</div>
-         </div>
-         <!-- /.team-img -->
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <!-- team-img -->
-            <div class="team-block">
-               <div class="team-img">
-					<img src="images/home/pipe.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">Pipes & Fittings</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="mb0 text-white">Pipes & Fittings</h4>
-							<p> FRP pipe is designed to be "user friendly". The resin, glass Reinforcement materials and composite construction were selected</p>
-							<a href="frp-tank-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-				</div>
-            </div>
-         </div>
-         <!-- /.team-img -->
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <!-- team-img -->
-            <div class="team-block">
-               <div class="team-img">
-					<img src="images/home/duct.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">FRP / PP FRP Ductings</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="mb0 text-white">FRP / PP FRP Ductings</h4>
-							<p>We are reliable FRP & GRP pipes manufacturer, exporter and Supplier to worldwide since 2000s with reliability.</p>
-							<a href="frp-duct-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-				</div>
-            </div>
-         </div>
-         <!-- /.team-img -->
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <!-- team-img -->
-            <div class="team-block">
-				<div class="team-img">
-					<img src="images/home/scrubber.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">FRP Scrubbers & Stack</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="text-white mb0">FRP Scrubbers & Stack</h4>
-							<p>We are here available to serve you at each and every potential implies that along these lines please try to remain at freedom to contact our assembling</p>
-							<a href="frp-scrubbers-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-               </div>
-            </div>
-         </div>
-         <!-- /.team-img -->
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <!-- team-img -->
-            <div class="team-block">
-				<div class="team-img">
-					<img src="images/home/vessel.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">Industrial Vessels</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="text-white mb0">Industrial Vessels</h4>
-							<p>We are pleased to introduce ourselves, engaged in design, manufacture and supply of various items made of FRP (GRP), </p>
-							<a href="frp-industrial-vessels-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-				</div>
-            </div>
-         </div>
-         <!-- /.team-img -->
-         <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-            <!-- team-img -->
-            <div class="team-block">
-				<div class="team-img">
-					<img src="images/home/gutter.webp" alt="" class="img-responsive" />
-					<div class="team-content">
-						<h4 class="text-white mb0">Motor Cover,FRP Gutter</h4>
-					</div>
-					<div class="overlay">
-						<div class="text">
-							<h4 class="text-white mb0">Motor Cover,FRP Gutter</h4>
-							<p>FRP Motor cover Is handled to shield motors and manufacturing of FRP gutter</p>
-							<a href="frp-blowers-manufacturers.php">Read More...</a>
-						</div>
-					</div>
-				</div>
-            </div>
-         </div>
-		 <div class="col-md-12 col-sm-12">
-			<div class="prod-anch">
-				<a href="frp-tank-manufacturers.php"><button type="button" class="btn btn-default btn">Read More</button></a>
-			</div>
-		 </div>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+
+<div class="hm-prod py-5" style="font-family: 'Poppins', sans-serif;">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-down">
+      <h2 class="main-title"><span>ABOUT OUR PRODUCTS</span></h2>
+    </div>
+
+    <div class="row gy-4">
+      <!-- Single Product Block -->
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="product-card">
+          <img src="images/home/react.webp" alt="Pickling Acid Rec. Tank" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>Pickling Acid Rec. Tank</h4>
+            <p>Our FRP Tanks are widely used in industries like Chemicals and Steel.</p>
+            <a href="frp-tank-manufacturers.php">Read More...</a>
+          </div>
+        </div>
       </div>
-   </div>
+
+      <!-- Repeat for other products -->
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="product-card">
+          <img src="images/home/pipe.webp" alt="Pipes & Fittings" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>Pipes & Fittings</h4>
+            <p>Designed to be user-friendly, using advanced resin and composite materials.</p>
+            <a href="frp-tank-manufacturers.php">Read More...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="product-card">
+          <img src="images/home/duct.webp" alt="FRP / PP FRP Ductings" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>FRP / PP FRP Ductings</h4>
+            <p>Reliable manufacturer and exporter of FRP & GRP duct systems worldwide.</p>
+            <a href="frp-duct-manufacturers.php">Read More...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="product-card">
+          <img src="images/home/scrubber.webp" alt="FRP Scrubbers & Stack" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>FRP Scrubbers & Stack</h4>
+            <p>Available to serve with full capability for FRP scrubber systems.</p>
+            <a href="frp-scrubbers-manufacturers.php">Read More...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="product-card">
+          <img src="images/home/vessel.webp" alt="Industrial Vessels" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>Industrial Vessels</h4>
+            <p>Experts in FRP design, manufacturing, and supply for industrial vessels.</p>
+            <a href="frp-industrial-vessels-manufacturers.php">Read More...</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-xl-4 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="product-card">
+          <img src="images/home/gutter.webp" alt="Motor Cover, FRP Gutter" class="img-fluid" />
+          <div class="product-overlay">
+            <h4>Motor Cover, FRP Gutter</h4>
+            <p>Protective FRP motor covers and durable gutter systems for industry.</p>
+            <a href="frp-blowers-manufacturers.php">Read More...</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center mt-5" data-aos="fade-up">
+      <a href="frp-tank-manufacturers.php" class="btn btn-custom">Read More Products</a>
+    </div>
+  </div>
 </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
 <?php 
 include_once('footer.php');
 ?>
@@ -237,4 +355,4 @@ include_once('footer.php');
 		});
 	});
 	</script>	
-				<span id="siteseal"><script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=FdqYGmVyevavoOHfiWN5Xf5SmZuXgE4BBvV0CzbP0vBFOQQ1lr255POWOu6F"></script></span>
+		
