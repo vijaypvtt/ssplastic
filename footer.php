@@ -151,7 +151,7 @@
         <ul class="footer-links">
           <li><a href="index.php">Home</a></li>
           <li><a href="about.php">About Us</a></li>
-          <li><a href="frp-products-manufacturers.php">Products</a></li>
+          <li><a href="frp-tank-manufacturers.php">Products</a></li>
           <li><a href="gallery.php">Gallery</a></li>
           <li><a href="contact.php">Contact Us</a></li>
         </ul>
@@ -161,7 +161,7 @@
       <div class="col-lg-3 col-md-6">
         <h5 class="footer-heading">Products & Services</h5>
         <ul class="footer-links">
-          <li><a href="storagetank.php">Storage Tanks</a></li>
+          <li><a href="frp-tank-manufacturers.php">Storage Tanks</a></li>
           <li><a href="frp-pipe-fittings-manufacturers.php">FRP Pipes / Fittings</a></li>
           <li><a href="frp-duct-manufacturers.php">FRP / Ductings</a></li>
           <li><a href="frp-industrial-vessels-manufacturers.php">Industrial Vessels</a></li>
