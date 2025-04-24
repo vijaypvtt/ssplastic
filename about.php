@@ -218,15 +218,15 @@
           <h3>About <span class="highlight">SS Plastic</span></h3>
         </div>
         <div class="col-md-8 abt-details" style="">
-        <p>At SS Plastic, we offer a comprehensive menu of services that cover everything from fabrication and structural fabrication to field support and equipment installation. With a team of skilled and experienced professionals, we have successfully handled fabrication projects both on-site and off-site, catering to domestic and international clients. Our expertise extends across a variety of systems including HDPE, PP, PPFRP, and PVC.
+                <p>At SS Plastic, we offer a comprehensive menu of services that cover everything from fabrication and structural fabrication to field support and equipment installation. With a team of skilled and experienced professionals, we have successfully handled fabrication projects both on-site and off-site, catering to domestic and international clients. Our expertise extends across a variety of systems including HDPE, PP, PPFRP, and PVC.
 
-Fabrication Expertise:</p>
-<p>With a rich history of serving various industries, SS Plastic Solutions stands as a premier manufacturer and supplier of top-notch FRP (Fiber Reinforced Plastic). At <B>SS Plastic</B>, we take pride in offering an extensive range of products tailored to meet the diverse needs of our esteemed clients.</b></p>
-<p>These products are manufactured in adherence with the industry set norms and guidelines. Further, these products are manufactured using quality-approved raw material like epoxy, iso-phthalic polyester, viny1 ester, furane & phenolic, resins fire retardant and iso-phthalic polyester. Some of the other plastics used are polypropylene (PP), high density polyethylene (HDPE). Laminates are made using themoplastics as liners for chemical resistance and external FRP for ensuring their strength. We employ full amount of resources in developing our range, without causing any wastage and harm to the environment.</p>
+        Fabrication Expertise:</p>
+        <p>With a rich history of serving various industries, SS Plastic Solutions stands as a premier manufacturer and supplier of top-notch FRP (Fiber Reinforced Plastic). At <B>SS Plastic</B>, we take pride in offering an extensive range of products tailored to meet the diverse needs of our esteemed clients.</b></p>
+        <p>These products are manufactured in adherence with the industry set norms and guidelines. Further, these products are manufactured using quality-approved raw material like epoxy, iso-phthalic polyester, viny1 ester, furane & phenolic, resins fire retardant and iso-phthalic polyester. Some of the other plastics used are polypropylene (PP), high density polyethylene (HDPE). Laminates are made using themoplastics as liners for chemical resistance and external FRP for ensuring their strength. We employ full amount of resources in developing our range, without causing any wastage and harm to the environment.</p>
 
-<p>With over 20 years of expertise, S S Plastic stands as a leader in providing comprehensive services spanning from fabrication to field support in industries worldwide. Our skilled workforce has successfully handled fabrication projects both on-site and off-site, domestically and internationally. No matter the system – be it HDPE, PP, PPFRP, or PVC – we bring our extensive experience to the table, managing projects from mold making to complete assembly with precision.</p>
-                <!-- Image Section -->
-   
+        <p>With over 20 years of expertise, S S Plastic stands as a leader in providing comprehensive services spanning from fabrication to field support in industries worldwide. Our skilled workforce has successfully handled fabrication projects both on-site and off-site, domestically and internationally. No matter the system – be it HDPE, PP, PPFRP, or PVC – we bring our extensive experience to the table, managing projects from mold making to complete assembly with precision.</p>
+                        <!-- Image Section -->
+          
       </div>
       <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
       <img src="images/about-img.webp" class="img-fluid rounded shadow" alt="About Image">
@@ -236,32 +236,17 @@ Fabrication Expertise:</p>
 
     </div>
   </div>
-</div>
 
 
 
-<div class="col-md-6 col-sm-12">
 
-    </div>
 			
 
 
 
 
 
-			<div class="col-md-4 col-sm-6">
-				<div class="abt-left-box">
-					<!--<div class="abt-left-img">-->
-					<!--	<img src="san.webp" class="img-responsive" />-->
-					<!--</div>-->
-					<!--<div class="LAPPER">-->
-					<!--	<P>SANTOSH SAPKAL</P>-->
-					<!--	<P>  Sole Proprietor</P>-->
-					<!--</div>-->
-				
 
-				</div>
-			</div>
 		</div> 
 		<!---------------
 			<div class="row">
@@ -311,7 +296,7 @@ Fabrication Expertise:</p>
       <h3>20+</h3>
       <p>Years of Knowledge & Global Project Experience</p>
     </div>
-  </div>
+
 </div>
 
 		

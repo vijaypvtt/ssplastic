@@ -168,7 +168,7 @@
           <li><a href="frp-scrubbers-manufacturers.php">Packed Column Scrubber</a></li>
           <li><a href="frp-moulded-items.php">Chemical Storage Room & Other Items</a></li>
           <li><a href="frp-anolyte-catholyte-headers.php">FRP Headers</a></li>
-          <li><a href="Jyoti94.zip" download>Download File</a></li>
+      
         </ul>
       </div>
 
