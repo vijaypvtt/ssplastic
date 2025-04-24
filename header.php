@@ -4,6 +4,7 @@
   <meta name="keywords" content="S S PLASTIC - FRP PPFRP HDPE TANK MANUFACTURES" />
   <meta name="description" content="S S PLASTIC - FRP PPFRP HDPE TANK MANUFACTURES" />
   <meta name="author" content=" https://ss-plastic.com/ "/>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
