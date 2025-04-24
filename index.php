@@ -195,7 +195,7 @@ include_once('header.php');
 <div class="container">
 	<div class="row abt-row">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 heading">
-			<h1><span>SS Plastic</span</h1>
+			<h1><span>SS PlastiC</span</h1>
 
 		</div>
 
