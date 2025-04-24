@@ -4,7 +4,7 @@
   <meta name="author" content=" https://ss-plastic.com/ "/>
   <title>Manufacturer of Storage Tank & Packed Column Scrubber by S S Plastic, Vapi</title><meta name="description" content="S S Plastic - Manufacturer of Storage Tank, Packed Column Scrubber & Pipe Fittings from Vapi, Gujarat, India" /><meta name="keywords" content="Storage Tank, Packed Column Scrubber, Pipe Fittings, Frp Rainwater Gutter, Industrial Vessels, Ducting System, Cooling Towers & Chillers, S S Plastic, Vapi" />
   <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-  <meta name="viewport" content="width=device-width, initial-scale=5, user-scalable=no">
+  <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no">
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
