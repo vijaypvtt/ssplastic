@@ -28,6 +28,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <?php if (function_exists('customPageHeader')){
       customPageHeader();
     }?>
+    
   </head>
 
   <style>
@@ -105,9 +106,38 @@ body {
   }
 }
 
+/* Dropdown Menu Custom Theme */
+.navbar-nav > li > .dropdown-menu {
+  background-color: #003366; /* Dark blue */
+  border: none;
+  border-radius: 0;
+  min-width: 220px;
+  padding: 0;
+}
 
+.navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff; /* White text */
+  padding: 10px 20px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
 
+.navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-nav > li > .dropdown-menu > li > a:focus {
+  background-color: #0059b3; /* Hover blue */
+  color: #c6e425; /* Lime green */
+  text-decoration: none;
+}
 
+/* Add a smooth dropdown animation */
+.dropdown-menu {
+  transition: all 0.3s ease;
+}
+
+/* Optional: caret color */
+.navbar-nav .dropdown-toggle .caret {
+  border-top-color: #fff;
+}
 
 
 
@@ -199,16 +229,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 							</ul>
 					</li>
 
+
 					<li><a href="gallery.php">Gallery</a></li>
 
 					<li><a href="contact.php">Contact Us</a></li>
         			<li class="dropdown">
-						<!-- <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">Policy<span class="caret"></span></a> -->
-							<!-- <ul class="dropdown-menu down-menu">
-								<li><a href="pdf/business_ethics_code_conduct_policy.pdf" target="_blank">Business Ethics</a></li>
-								<li><a href="privacy-policy.php">Privacy Policy</a></li>
-								<li><a href="index.php#">HES Policy</a></li>
-							</ul> -->
+
 					</li>
 				</ul>
 				<ul class="nav navbar-nav navbar-right menu-right">
