@@ -244,8 +244,20 @@
     <div class="row">
       <div class="col-md-12">
         <div class="prod-inn-para">
-          <p><b>Anolyte headers are the heart of the chloro alkali plant where the chlorine comes in contact with brine.</b> Cholorine Manifolds or Anolyte Header made in complete GRP using Alpolite Vipal 797 of Allnex Austria or Derakane 470-300 Momentum resin from Ashland Inc or also made in dual Laminate Plastics like ECTFE/GRP or CPVC/GRP depending on technology provider.</p>
-        </div>
+     
+       <p>Anolyte headers are a critical component in chloro-alkali plants, serving as the primary interface where chlorine contacts brine. Our chlorine manifolds and anolyte headers are expertly manufactured using premium materials to ensure maximum durability and chemical resistance.</p>
+       <div class="prod-feature">
+  <h5>Anolyte Headers & Chlorine Manifolds for Chloro-Alkali Plants:</h5>
+  <ul class="feature-list">
+    <li><i class="fa fa-check-circle"></i> Critical component where chlorine contacts brine in chloro-alkali plants</li>
+    <li><i class="fa fa-check-circle"></i> Manufactured using premium GRP with <strong>Alpolite Vipal 797 resin</strong> from Allnex Austria</li>
+    <li><i class="fa fa-check-circle"></i> Made with <strong>Derakane 470-300 Momentum resin</strong> from Ashland Inc for superior corrosion resistance</li>
+    <li><i class="fa fa-check-circle"></i> Available in dual laminate plastics like ECTFE/GRP or CPVC/GRP for customized technology requirements</li>
+    <li><i class="fa fa-check-circle"></i> Engineered for durability and reliable performance in harsh chemical environments</li>
+  </ul>
+</div>
+  
+      </div>
       </div>
 
       <div class="col-md-8 col-sm-8">

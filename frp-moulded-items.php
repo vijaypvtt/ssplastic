@@ -192,16 +192,27 @@
     <div class="row">
       <div class="col-md-12">
         <div class="prod-inn-para">
-          <p>We manufacture and supply <strong>FRP Moulded Items</strong> such as statues, decorative dustbins, non-corrosive doors, panels, pyramids, domes, and idols. Designed for usability, these are ideal for playgrounds, gardens, hotels, parks, and lawns.</p>
-          <p>Our latest twin-color FRP awnings are moulded with high precision and are offered in a variety of customer-preferred shades. They are mounted using pre-fabricated structures. <strong>Standard Size:</strong> 29" projection with 6" drop; length as required.</p>
-          <p><strong>Advantages:</strong> High impact strength, easy to wash, and vivid colors. <br> <strong>Fixing:</strong> 2" wall slot by client's stonecutter. FRP panels are inserted and fixed with anchor fasteners.</p>
+          <p>Our expertly designed chemical storage rooms provide a secure and compliant environment for storing hazardous and corrosive chemicals. Built with high-quality materials such as FRP (Fiberglass Reinforced Plastic) and dual laminate systems, these storage rooms ensure maximum chemical resistance, safety, and durability</p>
+          <div class="prod-feature">
+  <h5>Chemical Storage Rooms & Related Industrial Storage Solutions:</h5>
+  <ul class="feature-list">
+    <li><i class="fa fa-check-circle"></i> Corrosion resistant construction using premium FRP and dual laminate plastics</li>
+    <li><i class="fa fa-check-circle"></i> Customizable designs tailored to your specific storage needs</li>
+    <li><i class="fa fa-check-circle"></i> Equipped with ventilation, leak detection, and fire-resistant safety features</li>
+    <li><i class="fa fa-check-circle"></i> Easy maintenance with smooth, durable surfaces for quick cleaning</li>
+    <li><i class="fa fa-check-circle"></i> Compliant with OSHA, EPA, and other chemical storage safety regulations</li>
+    <li><i class="fa fa-check-circle"></i> Chemical storage tanks for acids, alkalis, and hazardous fluids</li>
+    <li><i class="fa fa-check-circle"></i> Spill containment pallets and bunds to prevent leaks and environmental damage</li>
+    <li><i class="fa fa-check-circle"></i> Corrosion-resistant shelving and racks for safe chemical organization</li>
+    <li><i class="fa fa-check-circle"></i> Safety cabinets and lockers for secure storage of flammable materials</li>
+  </ul>
+</div>
+
+
         </div>
       </div>
     </div>
 
-    <div class="row">
-      <hr class="tall">
-    </div>
 
     <div class="row">
       <div class="col-md-4 col-sm-4">

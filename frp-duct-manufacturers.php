@@ -161,8 +161,24 @@
     <div class="row">
       <div class="col-md-12">
         <div class="prod-inn-para">
-          <p><strong>SS Plastic</strong> has been a trusted manufacturer, supplier, and exporter of top-quality PP FRP ducts. We offer a comprehensive selection of PP FRP ducting solutions in various dimensions and specifications. Our ducts cater to a diverse range of applications, meeting your specific project requirements.</p>
+          <p><strong>SS Plastic</strong> is a trusted name in the industry as a leading manufacturer, supplier, and exporter of premium-quality PP FRP ducts in India. With decades of experience and a commitment to excellence, we specialize in providing durable and high-performance Polypropylene Fiberglass Reinforced Plastic (PP FRP) ducting systems that meet international quality standards.</p>
         </div>
+        <div class="prod-feature">
+  <h5>PP FRP Ducts Key Features:</h5>
+  <ul class="feature-list">
+    <li><i class="fa fa-check-circle"></i> Excellent corrosion resistance against chemicals and acids</li>
+    <li><i class="fa fa-check-circle"></i> High mechanical strength with lightweight construction</li>
+    <li><i class="fa fa-check-circle"></i> Durable and long-lasting performance in harsh environments</li>
+    <li><i class="fa fa-check-circle"></i> UV and weather resistant for outdoor applications</li>
+    <li><i class="fa fa-check-circle"></i> Low maintenance requirements</li>
+    <li><i class="fa fa-check-circle"></i> Easy and quick installation process</li>
+    <li><i class="fa fa-check-circle"></i> Cost-effective solution with reduced operating expenses</li>
+    <li><i class="fa fa-check-circle"></i> Customizable sizes and specifications</li>
+    <li><i class="fa fa-check-circle"></i> Environmentally friendly and recyclable material</li>
+    <li><i class="fa fa-check-circle"></i> Suitable for high-temperature and pressure conditions</li>
+  </ul>
+</div>
+
       </div>
     </div>
 

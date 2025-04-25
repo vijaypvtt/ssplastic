@@ -165,13 +165,25 @@
     <div class="row">
       <div class="col-md-12">
         <div class="prod-inn-para">
-          <p><strong>SS Plastic</strong>, your trusted manufacturer, exporter, and supplier of premium FRP (Fiber Reinforced Plastic) pipes. With a steadfast commitment to reliability and excellence, we offer a diverse range of FRP pipes and ducting tailored to meet a multitude of application requirements.</p>
-          <p>Our products stand out for their exceptional quality, versatility, and durability. Available in a variety of dimensions and specifications, our FRP pipes and ducting are crafted to deliver superior performance across a wide range of industries and applications.</p>
+        <p><strong>SS Plastic</strong> is a leading <strong>FRP scrubbers manufacturer</strong>, specializing in high-performance <strong>FRP emission control scrubbers</strong> for chemical processing, power generation, wastewater treatment, and other demanding industrial applications. Our <strong>FRP scrubbers</strong> deliver superior corrosion resistance, easy maintenance, and long service life—fully compliant with ASTM, ISO, and other stringent industry standards.</p>
+        <p>Beyond scrubbers, SS Plastic is your one-stop source for a full range of <strong>FRP products</strong>:</p>
         </div>
+        <div class="prod-feature">
+  <h5>Why Choose Our FRP Industrial Vessels?</h5>
+  <ul class="feature-list">
+    <li><i class="fa fa-check-circle"></i> Corrosion Resistant: FRP vessels withstand harsh chemicals, acids, and alkalis for extended durability.</li>
+    <li><i class="fa fa-check-circle"></i> Custom Design & Manufacturing: Tailor-made vessels designed to meet your specific size, shape, and capacity requirements.</li>
+    <li><i class="fa fa-check-circle"></i> Lightweight & Strong: Combines superior strength with lightweight properties for easier transport and installation.</li>
+    <li><i class="fa fa-check-circle"></i> Thermal & Electrical Insulation: Excellent insulation properties to improve operational safety and energy efficiency.</li>
+    <li><i class="fa fa-check-circle"></i> Cost-Effective Solution: A budget-friendly alternative to metal vessels without compromising on quality or performance.</li>
+  </ul>
+</div>
+
+
       </div>
     </div>
 
-    <div class="row"><hr class="tall"></div>
+ 
 
     <div class="row">
       <!-- Product Card -->
