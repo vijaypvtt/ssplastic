@@ -165,9 +165,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="prod-inn-para">
-							<p><b>SS PLASTIC </b>s a leading manufacturer and supplier of high-quality FRP tanks inVapi, India. With over 20 years of experience, we're a reliable and trusted partner for all your FRP tank needs.
-							<p> We've been consistently delivering exceptional FRP tanks to our clients for over two decades.We offer a comprehensive selection of FRP products, including tanks, scrubbers, ducts and ducting, blowers, pipes & fittings, sheets, chimneys, and more.Our FRP tanks cater to a wide range of industries, including chemical, steel, engineering, medical, power, metals, rubber, jewelry, textile, polytex, and many more</p>
-							<p> Our team of highly qualified and experienced engineers oversee the entire FRP tank manufacturing process, guaranteeing the highest standards and zero defects.</p>
+							<p><b>SS PLASTIC </b> is a leading manufacturer and supplier of premium-quality FRP tanks based in Vapi, Gujarat, India. With over 20 years of industry experience, we have built a solid reputation as a reliable and trusted partner for FRP tank solutions across a wide range of industries.
+							<p>For more than two decades, we have consistently delivered superior-quality FRP tanks that meet industry standards and exceed client expectations. Our comprehensive range of FRP products includes:</p>
+							<p> our team of highly qualified and experienced engineers oversees every stage of the FRP tank manufacturing process. With a strong focus on quality, precision, and performance, we ensure that each product is built to the highest standards—with zero defects.</p>
 						</div>
 					</div>
 				</div>
@@ -209,147 +209,89 @@
 							</ul>
 						</div>
 					</div>
-					<div class="col-md-5 col-sm-4">
-							<!-- <div class="prod-img-main">
-								<div class="prod-img-head">
-									<h5>ACID STORAGE TANK</h5>
-								</div>
-								<div class="prod-box">
-									<img src="images/product/storage-tank/acidtank.webp" title="Loading of FRP Tanks" alt="Loading of FRP Tanks" class="img-responsive" />
-								</div>
-							</div> -->
-							<div class="prod-img-main">
-								<div class="prod-img-head">
-									<h5>PICKLING ACID REC. TANK </h5>
-								</div>
-								<div class="prod-box">
-									<img src="images/product/storage-tank/PICKLING.webp" title="Tank" alt="Essar Steel Tank Manufacturer in India" class="img-responsive" />
-								</div>
-							</div>
-					</div>
-				</div>
-			<!----------------->
-				<div class="row">
-					<hr class="tall">
-				</div>
-			<!----------------->
-				<div class="row">
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>CHEMICAL STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE1.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Manufacturer in India" class="img-responsive" />
-							</div>
-						</div>
-					</div>
+					<div class="row">
+  <!-- Product Card -->
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">PICKLING ACID REC. TANK</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/PICKLING.webp" title="Tank" alt="Essar Steel Tank Manufacturer in India" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
 
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>CHEMICAL STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE2.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Manufacturers in India" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>CHEMICAL STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE3.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Suppliers in India" class="img-responsive" />
-							</div>
-						</div>
-					</div>
+  <!-- Product Card -->
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">CHEMICAL STORAGE TANKS</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE1.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Manufacturer in India" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
 
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>HCL STORAGE TANK</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE4.webp" title="FRP Storage Tanks Type 1" alt="FRP Storage Tanks Type 1" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-				</div>
-			-------------
-				<div class="row">
-					<hr class="tall">
-				</div>
-			<!----------------->
-				<div class="row">
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE5.webp" alt="Medium size FRP Tanks" title="Medium size FRP Tanks" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>ACID STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE6.webp" title="FRP Tank" alt="FRP Tank" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<!-- <div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>ACID STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/STORAGE7.webp" alt="FRP Tanks For Acid Storage" title="FRP Tanks For Acid Storage"  class="img-responsive" />
-							</div>
-						</div>
-					</div> -->
-					<!-- <div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>STORAGE TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/stroage-tank-08.webp" alt="" title=""  class="img-responsive" />
-							</div>
-						</div>
-					</div> -->
-					<!-- <div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>FRP TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/frp-tanks.webp" title="FRP TANKS" alt="FRP TANKS" class="img-responsive" />
-							</div>
-						</div>
-					</div> -->
-					<div class="col-md-4 col-sm-4">
-						<div class="prod-img-main">
-							<div class="prod-img-head">
-								<h5>PP FRP TANKS</h5>
-							</div>
-							<div class="prod-box">
-								<img src="images/product/storage-tank/pp-frp-tanks.webp" title="PP FRP TANKS" alt="PP FRP TANKS" class="img-responsive" />
-							</div>
-						</div>
-					</div>
-					<div class="col-md-12">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">CHEMICAL STORAGE TANKS</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE2.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Manufacturers in India" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
 
-					</div>
-				</div>
-			</div>
-			
-			<div class="col-sm-3 col-sm-pull-9">
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">CHEMICAL STORAGE TANKS</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE3.webp" title="Large size FRP Tanks" alt="Large size FRP Tanks Suppliers in India" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">HCL STORAGE TANK</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE4.webp" title="FRP Storage Tanks Type 1" alt="FRP Storage Tanks Type 1" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">STORAGE TANKS</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE5.webp" title="Medium size FRP Tanks" alt="Medium size FRP Tanks" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-4 col-sm-6">
+    <div class="panel panel-default">
+      <div class="panel-heading text-center">
+        <h5 class="panel-title">ACID STORAGE TANKS</h5>
+      </div>
+      <div class="panel-body text-center">
+        <img src="images/product/storage-tank/STORAGE6.webp" title="FRP Tank" alt="FRP Tank" class="img-responsive center-block" />
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
+	</div>
+	<div class="col-sm-3 col-sm-pull-9">
   <div class="prod-menu">
     <ul>
       <li><a href="frp-tank-manufacturers.php"><i class="fa fa-caret-right" aria-hidden="true"></i> Storage Tanks</a></li>
@@ -362,11 +304,10 @@
     </ul>
   </div>
 </div>
-
-		</div>
 	</div>
-</div>
-<!-------------->
+	</div>
+	
+
 <?php 
 include_once('footer.php');
 ?>

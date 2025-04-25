@@ -176,11 +176,27 @@
       <div class="col-md-12">
         <div class="prod-inn-para">
           <p>
-            At SS Plastic, we understand the importance of user-friendly and durable FRP pipes. Our FRP pipes are built with ease of use in mind, making installation and maintenance a breeze.
+          At SS Plastic, we specialize in the manufacturing and supply of premium FRP pipe fittings including FRP stub flanges, FRP elbows, FRP couplings, and more. Engineered for durability and performance, our fiberglass-reinforced plastic pipe fittings are ideal for a wide range of industrial applications.
           </p>
           <p>
-            We meticulously select resins and glass reinforcement materials to ensure consistent resistance against a wide range of chemicals. Our pipes feature a heavy exterior resin coat fortified with UV stabilizers, shielding your pipes from sunlight and weather, ensuring long-term reliability.
+          These FRP pipe fittings are designed to withstand high pressure, extreme temperatures, and harsh chemicals, making them a perfect choice for:
           </p>
+          <div class="prod-feature">
+  <h5>FRP Pipe Fittings Manufacturers Applications:</h5>
+  <ul class="feature-list">
+    <li><i class="fa fa-check-circle"></i> Chemical processing industries</li>
+    <li><i class="fa fa-check-circle"></i> Water and wastewater treatment plants</li>
+    <li><i class="fa fa-check-circle"></i> Power generation facilities</li>
+    <li><i class="fa fa-check-circle"></i> Oil & gas refineries</li>
+    <li><i class="fa fa-check-circle"></i> Industrial piping systems</li>
+    <li><i class="fa fa-check-circle"></i> Acid handling and transfer lines</li>
+    <li><i class="fa fa-check-circle"></i> Corrosive fluid transport networks</li>
+    <li><i class="fa fa-check-circle"></i> Fertilizer and petrochemical plants</li>
+    <li><i class="fa fa-check-circle"></i> Food and beverage process piping</li>
+    <li><i class="fa fa-check-circle"></i> Marine and offshore applications</li>
+  </ul>
+</div>
+
         </div>
       </div>
     </div>

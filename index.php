@@ -203,8 +203,7 @@ include_once('header.php');
 <div class="col-lg-6 col-md-6 col-sm-12 about-section" data-aos="fade-up" data-aos-duration="1000">
   <h2 class="section-title">About Us</h2>
   <p>
-    SS Plastic offers a comprehensive range of services—from fabrication and structural manufacturing to on-site support like lamination repair and equipment installation. 
-    Our skilled and experienced team has successfully completed both on-site and off-site projects, domestically and internationally.
+  SS Plastic is a leading FRP manufacturer in India, offering precision-engineered fiberglass tanks, scrubbers, and industrial FRP solutions built for durability and corrosion resistance. Serving chemical, pharma, and wastewater industries with reliable, custom-fabricated components.
   </p>
   <p>
     With extensive experience in working with materials like HDPE, PP, and PPFRP/PVC, we handle the entire fabrication process—from mold creation to the final assembly of custom equipment.

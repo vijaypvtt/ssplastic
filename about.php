@@ -1,5 +1,6 @@
-
-
+<head>
+<meta name="description" content=" SS Plastic is a top FRP manufacturer in India offering custom fiberglass tanks, scrubbers, and ducting systems for industrial applications. ISO-certified. Reliable. Durable.">
+</head>
 <style>
 	.about-section {
   padding: 30px;
@@ -218,16 +219,48 @@
           <h3>About <span class="highlight">SS Plastic</span></h3>
         </div>
         <div class="col-md-8 abt-details" style="">
-                <p>At SS Plastic, we offer a comprehensive menu of services that cover everything from fabrication and structural fabrication to field support and equipment installation. With a team of skilled and experienced professionals, we have successfully handled fabrication projects both on-site and off-site, catering to domestic and international clients. Our expertise extends across a variety of systems including HDPE, PP, PPFRP, and PVC.
+    <p><strong>🏢 About SS Plastic – Leading FRP Manufacturer in India</strong></p>
+    <p>Welcome to SS Plastic, your trusted partner in <strong>Fiberglass Reinforced Plastic (FRP)</strong> manufacturing and custom fabrication. With over two decades of industrial experience, we specialize in delivering high-performance, corrosion-resistant FRP products tailored for chemical processing, pharmaceuticals, water treatment, and infrastructure sectors.</p>
 
-        Fabrication Expertise:</p>
-        <p>With a rich history of serving various industries, SS Plastic Solutions stands as a premier manufacturer and supplier of top-notch FRP (Fiber Reinforced Plastic). At <B>SS Plastic</B>, we take pride in offering an extensive range of products tailored to meet the diverse needs of our esteemed clients.</b></p>
-        <p>These products are manufactured in adherence with the industry set norms and guidelines. Further, these products are manufactured using quality-approved raw material like epoxy, iso-phthalic polyester, viny1 ester, furane & phenolic, resins fire retardant and iso-phthalic polyester. Some of the other plastics used are polypropylene (PP), high density polyethylene (HDPE). Laminates are made using themoplastics as liners for chemical resistance and external FRP for ensuring their strength. We employ full amount of resources in developing our range, without causing any wastage and harm to the environment.</p>
+    <p><strong>🚀 Who We Are</strong></p>
+    <p>Established in Vapi, Gujarat, SS Plastic is an ISO-certified FRP manufacturer committed to quality, safety, and innovation. We design and fabricate a wide range of FRP tanks, scrubbers, ducting systems, and piping solutions, engineered to withstand the most demanding industrial environments.</p>
 
-        <p>With over 20 years of expertise, S S Plastic stands as a leader in providing comprehensive services spanning from fabrication to field support in industries worldwide. Our skilled workforce has successfully handled fabrication projects both on-site and off-site, domestically and internationally. No matter the system – be it HDPE, PP, PPFRP, or PVC – we bring our extensive experience to the table, managing projects from mold making to complete assembly with precision.</p>
-                        <!-- Image Section -->
-          
-      </div>
+    <p><strong>🛠️ What We Do</strong></p>
+    <ul>
+        <li>FRP Storage Tanks for chemicals, water, and industrial fluids</li>
+        <li>Air Pollution Control Equipment like packed bed scrubbers and blowers</li>
+        <li>FRP Pipe Fittings and Ducting Systems</li>
+        <li>Custom Moulding & Fabrication Services for tailored project needs</li>
+    </ul>
+    <p>Every product is designed for long-term performance, with a focus on lightweight structure, mechanical strength, and chemical resistance.</p>
+
+    <p><strong>💼 Industries We Serve</strong></p>
+    <ul>
+        <li>Chemical & Petrochemical Plants</li>
+        <li>Wastewater & Effluent Treatment Plants (ETP/STP)</li>
+        <li>Pharmaceutical & Food Processing Units</li>
+        <li>Pulp & Paper, Textiles, and Power Plants</li>
+    </ul>
+
+    <p><strong>🧪 Our Commitment to Quality</strong></p>
+    <p>Each product is manufactured under strict quality control standards using premium-grade resin systems and advanced lamination techniques. Our in-house testing ensures compliance with international performance benchmarks.</p>
+
+    <p><strong>🌱 Sustainability Focus</strong></p>
+    <p>We prioritize eco-conscious manufacturing by minimizing waste and maximizing the lifespan of every product. Our FRP solutions support sustainable infrastructure by replacing rust-prone metals with durable alternatives.</p>
+
+    <p><strong>📈 Why Choose SS Plastic?</strong></p>
+    <ul>
+        <li>20+ years of FRP industry expertise</li>
+        <li>Custom-built designs with 3D modeling support</li>
+        <li>On-time delivery with nationwide logistics</li>
+        <li>Responsive after-sales and technical support</li>
+        <li>Competitive pricing with no compromise on quality</li>
+    </ul>
+
+
+   
+</div>
+
       <div class="col-md-4" data-aos="zoom-in" data-aos-duration="1000">
       <img src="images/about-img.webp" class="img-fluid rounded shadow" alt="About Image">
         </div>
